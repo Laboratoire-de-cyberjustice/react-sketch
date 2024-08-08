@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -31,6 +32,5 @@
     "strictNullChecks": true /* Enable strict null checks. */,
     "allowJs": true /* Allow javascript files to be compiled. */
   },
-  "exclude": ["lib", "node_modules", "types", "examples"],
-  "include": ["packages/**/*.tsx"]
+  "exclude": ["lib", "node_modules", "types", "examples", "archives"],
 }

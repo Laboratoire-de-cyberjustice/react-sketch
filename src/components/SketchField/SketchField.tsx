@@ -1,5 +1,4 @@
 import * as React from "react";
-import PropTypes from "prop-types";
 import { PureComponent } from "react";
 import { autoresize } from "./resize";
 import { fabric } from "fabric";
